@@ -1,7 +1,14 @@
 public boolean makes10(int a, int b) {
+<<<<<<< HEAD
 	int sum = a+b;
 	if (sum ==10 || a==10 || b==10){
 		return true;
  	}
+=======
+	int sum = a+b; 
+	if (sum ==10 || a==10 || b==10){
+		return true; 
+ 	}  
+>>>>>>> f7fc81f16b56e4ec61cd51fe82abba7fe819ccc8
 	return false;
 }
