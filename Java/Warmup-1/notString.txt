@@ -1,11 +1,6 @@
 public String notString(String str) {
 	if (str.length() >= 3 && str.substring(0, 3).equals("not")) {
-<<<<<<< HEAD
-  	return str;
+  		return str;
 	}
-=======
-    		return str;
-	}  
->>>>>>> f7fc81f16b56e4ec61cd51fe82abba7fe819ccc8
 	return "not " + str;
 }
