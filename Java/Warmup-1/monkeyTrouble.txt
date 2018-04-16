@@ -1,10 +1,6 @@
 public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
 	if (aSmile==bSmile) {
-<<<<<<< HEAD
   	return true;
-=======
-   		return true; 
->>>>>>> f7fc81f16b56e4ec61cd51fe82abba7fe819ccc8
 	}
 	return false;
 }
