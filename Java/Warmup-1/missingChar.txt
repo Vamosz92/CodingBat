@@ -1,10 +1,5 @@
 public String missingChar(String str, int n) {
-<<<<<<< HEAD
 	String front = str.substring(0, n);
 	String back = str.substring(n+1, str.length());
-=======
-	String front = str.substring(0, n);  
-	String back = str.substring(n+1, str.length());  
->>>>>>> f7fc81f16b56e4ec61cd51fe82abba7fe819ccc8
 	return front + back;
 }
