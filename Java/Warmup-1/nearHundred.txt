@@ -1,8 +1,4 @@
 public boolean nearHundred(int n) {
 	return ((Math.abs(100 - n) <= 10) ||
-<<<<<<< HEAD
- (Math.abs(200 - n) <= 10));
-=======
- 		(Math.abs(200 - n) <= 10));
->>>>>>> f7fc81f16b56e4ec61cd51fe82abba7fe819ccc8
+ 	(Math.abs(200 - n) <= 10));
 }
