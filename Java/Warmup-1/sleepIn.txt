@@ -2,9 +2,5 @@ public boolean sleepIn(boolean weekday, boolean vacation) {
 	if (weekday == true && vacation == false) {
 		return false;
 	}
-<<<<<<< HEAD
-  return true;
-=======
-	return true;
->>>>>>> f7fc81f16b56e4ec61cd51fe82abba7fe819ccc8
+  	return true;
 }
